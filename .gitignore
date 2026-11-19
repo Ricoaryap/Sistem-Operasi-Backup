@@ -1,0 +1,15 @@
+# Abaikan file Mesin Virtual
+*.vdi
+*.ova
+*.vmdk
+
+# Abaikan file arsip hasil testing agar repo tidak bengkak
+archive/*.tar.gz
+*.zip
+
+# Abaikan data dummy
+source/*
+restore/*
+
+# Sistem operasi log/cache
+.DS_Store
