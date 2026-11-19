@@ -1,8 +1,8 @@
-# Proyek Akhir Sistem Operasi - Kelompok [NOMOR KELOMPOK]
+# Proyek Akhir Sistem Operasi - Kelompok 4
 
 **Pilihan Proyek:** 5A - Otomasi Backup dan Pemulihan Data Linux
 
-**Sistem Operasi VM:** Ubuntu Server 24.04.5.1 LTS (2 vCPU, 2 GB RAM)
+**Sistem Operasi VM:** Ubuntu Server 24.04.5.1 LTS (2 vCPU, 2 GB RAM) & Ubuntu Desktop 24.04.5.1 LTS (2 vCPU, 4 GB RAM)
 
 ## Anggota Kelompok & Pembagian Tugas
 1. **Bekti Nur Wicaksono (2510512043)** - Verifikasi Integritas (sha256sum)
