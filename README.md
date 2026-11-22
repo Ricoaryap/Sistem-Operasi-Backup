@@ -5,8 +5,8 @@
 **Sistem Operasi VM:** Ubuntu Server 24.04.5.1 LTS (2 vCPU, 2 GB RAM) & Ubuntu Desktop 24.04.5.1 LTS (2 vCPU, 4 GB RAM)
 
 ## Anggota Kelompok & Pembagian Tugas
-1. **Bekti Nur Wicaksono (2510512043)** - Verifikasi Integritas (sha256sum)
-2. **Kenzia Zahwa Eddyputri (2510512121)** - Lock, Log, & Eksekusi Docker Read-Only
+1. **Bekti Nur Wicaksono (2510512043)** - Lock, Log, & Eksekusi Docker Read-Only
+2. **Kenzia Zahwa Eddyputri (2510512121)** - Verifikasi Integritas (sha256sum)
 3. **Najwa Aulia (2510512129)** - Validasi Sumber & Parameter
 4. **Rico Sandika Aryaputra (2510512053)** - Pembuatan Arsip (.tar.gz)
 5. **Vrista Darin Nadira (2510512119)** - Pemulihan Data (Restore)
