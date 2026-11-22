@@ -5,6 +5,7 @@ source "$(dirname "$0")/../config/paths.env"
 WAKTU=$(date +"%Y%m%d_%H%M%S")
 NAMA_ARSIP="backup_${WAKTU}.tar.gz"
 FILE_TUJUAN="$ARCHIVE_DIR/$NAMA_ARSIP"
+FILE_CHECKSUM="${FILE_TUJUAN}.sha256"
 
 echo "[INFO] Memulai pembuatan arsip backup..."
 
@@ -19,7 +20,9 @@ tar -czf "$FILE_TUJUAN" -C "$SOURCE_DIR" . 2>/dev/null
 
 # Cek apakah perintah tar berhasil
 if [ $? -eq 0 ] && [ -f "$FILE_TUJUAN" ]; then
+    sha256sum "$FILE_TUJUAN" > "$FILE_CHECKSUM"
     echo "[SUCCESS] Arsip berhasil dibuat: $FILE_TUJUAN"
+    echo "[SUCCESS] File checksum berhasil dibuat: $FILE_CHECKSUM"
     exit 0
 else
     echo "[ERROR] Gagal membuat arsip backup!"
