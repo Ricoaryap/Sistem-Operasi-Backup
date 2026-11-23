@@ -13,3 +13,7 @@ restore/*
 
 # Sistem operasi log/cache
 .DS_Store
+
+# Abaikan hasil pengujian lokal
+archive/
+output/
